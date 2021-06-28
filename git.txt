@@ -33,3 +33,4 @@ git commit -m "已删除"
 
 9、差异对比
 git diff filename 将工作区和暂存区里的区别
+aa
