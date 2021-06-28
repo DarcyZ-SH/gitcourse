@@ -32,5 +32,6 @@ git add filename
 git commit -m "已删除"
 
 9、差异对比
-git diff filename 将工作区和暂存区里的区别
-aa
+git diff filename 工作区和暂存区里的区别
+git diff HEAD filename 暂存区和本地库里的区别
+git diff 7177d29 filename 工作区和本地库某版本的区别
