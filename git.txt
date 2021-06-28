@@ -40,4 +40,5 @@ git diff 7177d29 filename 工作区和本地库某版本的区别
 git branch -v 查看本地分支
 git branch bran01 创建bran01分支
 git checkout bran01 切换到bran01分支
-git merge bran01  将bran01合并到当前分支 
+git merge bran01  将bran01合并到当前分支
+
