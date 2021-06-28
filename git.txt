@@ -5,3 +5,19 @@ git config --global user.email "darcyz@163.com"
 2、本地仓库初始化
 进入目录 git init
 
+3、将文件加入本地仓库暂存区
+git add filename
+
+4、将暂存区的文件提交本地库
+git commit -m "comment" filename
+
+5、查看工作区和暂存区的状态
+git status
+
+6、查看提交历史记录
+git log
+git log --pretty=oneline 简单显示
+git log --oneline   更简洁的方式
+git reflog  显示历史版本需要走多少步的信息
+
+
