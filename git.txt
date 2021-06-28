@@ -1,0 +1,7 @@
+1、设置用户名,邮箱
+git config --global user.name "darcyz001"
+git config --global user.email "darcyz@163.com"
+
+2、本地仓库初始化
+进入目录 git init
+
