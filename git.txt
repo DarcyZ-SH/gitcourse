@@ -20,4 +20,7 @@ git log --pretty=oneline 简单显示
 git log --oneline   更简洁的方式
 git reflog  显示历史版本需要走多少步的信息
 
+7、版本的前进或后退
+
+
 
