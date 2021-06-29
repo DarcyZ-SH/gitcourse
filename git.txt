@@ -46,3 +46,13 @@ git merge bran01  将bran01合并到当前分支
 git remote -v 查看远程地址别名
 git remote add orgin https://github.com/darcyz001/gitcourse.git 增加远程地址取名为orgin
 git push orgin master 把master分支推到远程仓库
+git clone https://github.com/darcyz001/gitcourse.git clone远程库到本地当前目录
+远程拉取到本地并合并 方式一
+1)git fetch origin master 从远程库拉取到本地
+2)git checkout origin/master 切换到远程库master分支，查看文件是否正常
+3)git checkout master  切换回本地库
+4)git merge origin/master 把本地库和远程库合并
+方式二
+git pull origin master
+
+
