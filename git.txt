@@ -42,3 +42,7 @@ git branch bran01 创建bran01分支
 git checkout bran01 切换到bran01分支
 git merge bran01  将bran01合并到当前分支
 
+11、远程
+git remote -v 查看远程地址别名
+git remote add orgin https://github.com/darcyz001/gitcourse.git 增加远程地址取名为orgin
+git push orgin master 把master分支推到远程仓库
